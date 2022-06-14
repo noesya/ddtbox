@@ -1,0 +1,3 @@
+baseURL = 'https://ddtbox.fr/'
+title = 'DDT Box'
+theme = "hugo-bootstrap-5"
