@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <title>
+      {{ .Title}}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}
+    </title>
+    {{ partial "css.html" }}
+  </head>
+  <body>
+    <header class="blog-header">
+        <nav class="navbar navbar-expand-md bg-transparent">
+            <div class="container">
+              <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}">
+                {{ .Site.Title }}
+              </a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+      <h1 class="mt-5 mb-5">{{ .Title }}</h1>
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+    <footer class="blog-footer w-100 pb-5">
+      <div class="container">
+        <img src="/images/prefet-de-la-haute-garonne.svg" alt="Préfet de la Haute-Garonne" style="margin-left: -15px">
+      </div>
+    </footer>
+    {{ partial "js.html" }}
+  </body>
+</html>

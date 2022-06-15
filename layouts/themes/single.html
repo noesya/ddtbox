@@ -1,28 +1,26 @@
-{{ define "body" }}
-
-  <div class="container">
-    <h1 class="mt-5 mb-5">
-        {{ .Title }}
-    </h1>
-    <article class="theme">
-      <div class="row">
-        <div class="col-lg-7">
-          {{ .Content }}
-        </div>
-        <div class="offset-lg-1 col-lg-4">
-          {{ with .Params.calendly }}
-            <div class="calendly-inline-widget" style="min-width:320px;height:800px;" data-auto-load="false">
-              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-              <script>
-              Calendly.initInlineWidget({
-                url: 'https://calendly.com/{{ . }}?hide_event_type_details=1'
-              });
-              </script>
-            </div>
-          {{ end }}
-        </div>
+{{ define "main" }}
+  <article class="theme">
+    <div class="row">
+      <div class="col-lg-7">
+        {{ .Content }}
       </div>
-    </article>
-  </div>
+      <div class="offset-lg-1 col-lg-4">
+        <h2 class="h3 mb-4">Résoudre mon problème</h2>
+        {{ with .Params.calendly }}
+          <h3 class="h5">En prenant rendez-vous</h3>
+          <div  class="calendly-inline-widget"
+                style="min-width:320px;height:800px;"
+                data-auto-load="false">
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+            <script>
+            Calendly.initInlineWidget({
+              url: 'https://calendly.com/{{ . }}?hide_event_type_details=1'
+            });
+            </script>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </article>
 
 {{ end }}

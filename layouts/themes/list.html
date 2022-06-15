@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <div class="row">
+    {{ range .Pages }}
+      <div class="col-lg-2">
+        {{ partial "themes/theme.html" . }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

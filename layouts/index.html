@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  <section class="home">
+    {{ .Content }}
+  </section>
+
+  <h2>Thèmes</h2>
+  <div class="row">
+    {{ range where site.Pages "Section" "themes" }}
+      <div class="col-lg-4">
+        {{ partial "themes/theme.html" . }}
+      </div>
+    {{ end }}
+  </div>
+
+{{ end }}

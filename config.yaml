@@ -1,0 +1,4 @@
+baseURL: 'https://www.ddtbox.fr/'
+title: 'DDT Box'
+permalinks:
+  themes: /themes/:title/

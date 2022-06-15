@@ -1,0 +1,11 @@
+{
+  "name": "ddtbox",
+  "version": "1.0.1",
+  "repository": "git@github.com:noesya/ddtbox.git",
+  "author": "alexisben <arnaud.levy@noeya.coop>",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3"
+  }
+}
