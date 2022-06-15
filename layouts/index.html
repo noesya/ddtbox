@@ -6,8 +6,8 @@
 
   <h2>Thèmes</h2>
   <div class="row">
-    {{ range where site.Pages "Section" "themes" }}
-      <div class="col-lg-4">
+    {{ range where site.RegularPages "Section" "themes" }}
+      <div class="col-lg-6">
         {{ partial "themes/theme.html" . }}
       </div>
     {{ end }}
