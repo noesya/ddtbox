@@ -30,8 +30,6 @@ capitalisation et diffusion de l’information, l’animation de la filière gé
 supervision technique d’outils web, les conventions d’échanges de données avec
 des partenaires extérieurs. Cette unité assure l’administration du géoportail de
 l’urbanisme pour la Haute-Garonne.
-Nous contacter pour un échange mail :
-ddt-adl-sig@haute-garonne.gouv.fr
 
 ### Méthodes et Interface
 Préciser les besoins en cas de problématiques complexes, concevoir les
