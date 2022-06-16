@@ -5,19 +5,35 @@
         {{ .Content }}
       </div>
       <div class="offset-lg-1 col-lg-4">
-        <h2 class="h3 mb-4">Résoudre mon problème</h2>
-        {{ with .Params.calendly }}
-          <h3 class="h5">En prenant rendez-vous</h3>
-          <div  class="calendly-inline-widget"
-                style="min-width:320px;height:800px;"
-                data-auto-load="false">
+        <h2 class="h3 mb-4">Contacts</h2>
+        {{ range .Params.contacts }}
+          <hr>
+          <h3 class="h4">
+            {{ .title }}
+          </h3>
+          {{ with .tel }}
+            <p>
+              Téléphone : <a href="tel:{{ . }}">{{ . }}</a>
+            </p>
+          {{ end }}
+          {{ with .mail }}
+            <p>
+              Mail : <a href="mailto:{{ . }}">{{ . }}</a>
+            </p>
+          {{ end }}
+          {{ with .calendly }}
+            <p>Rendez-vous en ligne</p>
+            <div  class="calendly-inline-widget"
+            style="min-width:320px;height:600px;"
+            data-auto-load="false">
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
             <script>
-            Calendly.initInlineWidget({
-              url: 'https://calendly.com/{{ . }}?hide_event_type_details=1'
-            });
+              Calendly.initInlineWidget({
+                url: 'https://calendly.com/{{ . }}?hide_event_type_details=1'
+              });
             </script>
           </div>
+          {{ end }}
         {{ end }}
       </div>
     </div>

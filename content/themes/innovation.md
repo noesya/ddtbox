@@ -1,11 +1,51 @@
 ---
 title: Innovation en Haute-Garonne
-calendly: disponibilites-de-la-mip/30min
+contacts:
+  - title: Mission Innovation et Partenariats
+    mail: mip.ddt-31@equipement-agriculture.gouv.fr
+    calendly: disponibilites-de-la-mip/30min
+  - title: Gestion technique de la donnée
+    mail: ddt-adl-sig@haute-garonne.gouv.fr
+  - title: Méthodes et Interface
+    tel: 05 81 97 71 47
+  - title: Incubation Valorisation Expérimentation
+    tel: 05 81 97 71 43
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget odio turpis. Integer ac sem ipsum. Donec ac sapien vitae ligula porttitor condimentum. Curabitur tristique lorem vitae erat posuere iaculis. Nulla pellentesque porttitor mi a malesuada. In luctus dolor sit amet dolor pharetra bibendum. Ut tristique aliquet ligula, vel semper elit tristique nec. Ut vel pellentesque orci. Etiam eu semper metus. Suspendisse convallis facilisis lorem, eu placerat nunc posuere non.
+## Mission Innovation et Partenariats
+Placée auprès de la direction, la "Mission Innovation et Partenariats"
+porte son action dans l’animation de partenariats pour concourir à la
+stratégie d’action de la DDT et à l'organisation des transformations des
+méthodes et pratiques, qui se traduisent concrètement sous la forme de
+démonstrateurs et de dispositifs collectifs.
 
-Proin tempus accumsan enim sed lobortis. Nullam eu justo tincidunt, sagittis orci tempus, euismod turpis. Nunc scelerisque nisl sit amet orci tincidunt, at tempus metus convallis. Mauris vestibulum, dolor ac pharetra vehicula, nisl ipsum laoreet tortor, sed varius mi nibh sit amet ipsum. Nunc a ante at ante dapibus rhoncus. Suspendisse vestibulum urna eget mauris ultricies, vel dapibus enim accumsan. Nam molestie finibus lectus a facilisis.
 
-Nam accumsan lacus a ultrices luctus. Vestibulum sit amet diam vitae ante feugiat mattis. Nullam bibendum tincidunt laoreet. Nulla ac neque a nisi gravida tincidunt. Duis venenatis posuere egestas. Duis ac tristique est. Vivamus diam sapien, egestas et ornare sit amet, bibendum eu enim. Phasellus efficitur orci nec felis dapibus, ac tincidunt nulla egestas. Proin at convallis arcu, ac commodo dolor. Cras blandit ipsum eget risus molestie malesuada.
+Elle est constituée de 3 unités travaillant sur des champs complémentaires :
+- Gestion Technique de la Donnée
+- Méthodes et Interface
+- Incubation Valorisation Expérimentation
 
-Aenean consequat erat metus, sed finibus eros efficitur eu. Cras lobortis, neque et lobortis suscipit, sem risus eleifend nisi, nec maximus magna purus ut augue. Proin a arcu pharetra, tristique quam sed, condimentum eros. Phasellus in metus quis felis laoreet finibus ac eu nulla. Aliquam aliquet dapibus orci, ut ullamcorper turpis mollis vitae. Nam nec lectus ultrices, commodo ligula sed, interdum eros. Morbi venenatis, tortor nec ultrices gravida, ante diam fermentum leo, nec molestie ex enim non urna.
+### Gestion Technique de la Donnée
+Assurer le traitement de la donnée, sa normalisation, le respect du RGPD, la
+capitalisation et diffusion de l’information, l’animation de la filière géomatique,
+supervision technique d’outils web, les conventions d’échanges de données avec
+des partenaires extérieurs. Cette unité assure l’administration du géoportail de
+l’urbanisme pour la Haute-Garonne.
+Nous contacter pour un échange mail :
+ddt-adl-sig@haute-garonne.gouv.fr
+
+### Méthodes et Interface
+Préciser les besoins en cas de problématiques complexes, concevoir les
+méthodes et les outils adaptés, garantir les résultats, construire les
+dispositifs partenariaux experts, éclairer les politiques publiques,
+partager les points de vue.
+Cette unité collabore avec les organismes de recherche, d’enseignement, les
+acteurs économiques et de la société civile au bénéfice des innovations pour
+promouvoir et soutenir les politiques publiques portées par la DDT, pour et avec
+les acteurs des territoires.
+
+### Incubation Valorisation Expérimentation
+Superviser et déployer les innovations, rechercher les financement, miseen
+oeuvre et accompagnement des innovations managériales,
+techniques ou organisationnelles, valorisation des productions,
+expérimentation. Vous portez la transformation de vos structures ? Vous êtes
+référent(e) innovation ?
