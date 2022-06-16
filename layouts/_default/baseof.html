@@ -9,6 +9,7 @@
       {{ .Title}}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}
     </title>
     {{ partial "css.html" }}
+    <link rel="stylesheet" href="https://www.systeme-de-design.gouv.fr/dsfr.min.css">
   </head>
   <body>
     <header class="blog-header">
@@ -22,7 +23,7 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <h1 class="mt-5 mb-5">{{ .Title }}</h1>
         </div>
       </div>
