@@ -25,7 +25,8 @@ contacts:
       2 boulevard Armand Duportal<br>
       BP 70001<br>
       31074 Toulouse Cedex 9<br>
-
+      <br>
+      Pour accéder à nos locaux, l'entrée est en face de la station de métro Compans-Caffarelli<br><br>
       Du Lundi au Vendredi : de 09h00 à 11h30 de 14h00 à 16h00
   - title: Gestion technique de la donnée
     text: >
