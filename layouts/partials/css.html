@@ -10,8 +10,7 @@
   {{- $styles = resources.Get "sass/main.sass" | toCSS $cssOpts | minify | fingerprint -}}
 {{ end }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-<link rel="stylesheet" href="https://www.systeme-de-design.gouv.fr/dsfr.min.css">
-
+<link rel="stylesheet" href="/dsfr/dsfr.min.css">
 <link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png">
 <link rel="icon" href="/images/favicons/favicon.svg" type="image/svg+xml">
 <link rel="shortcut icon" href="/images/favicons/favicon.ico" type="image/x-icon">

@@ -5,7 +5,5 @@
   "author": "Arnaud Levy <arnaud.levy@noeya.coop>",
   "license": "MIT",
   "dependencies": {
-    "@popperjs/core": "^2.11.2",
-    "bootstrap": "^5.1.3"
   }
 }

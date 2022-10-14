@@ -4,13 +4,11 @@
     {{ .Content }}
   </section>
 
-  <h2>Thèmes</h2>
-  <div class="row">
+  <div class="fr-grid-row fr-grid-row--gutters fr-mb-1w">
     {{ range where site.RegularPages "Section" "themes" }}
-      <div class="col-lg-6">
+      <div class="fr-col fr-col-md-4">
         {{ partial "themes/theme.html" . }}
       </div>
     {{ end }}
   </div>
-
 {{ end }}

@@ -1,5 +1,6 @@
 {{ define "main" }}
   <article class="theme">
+    {{ .Content }}
     {{ range .Params.contacts }}
       <h2>{{ .title }}</h2>
       <div class="row">

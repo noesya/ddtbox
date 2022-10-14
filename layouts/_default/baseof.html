@@ -11,41 +11,14 @@
     {{ partial "css.html" }}
   </head>
   <body>
-    <header class="blog-header">
-        <nav class="navbar navbar-expand-md bg-transparent">
-            <div class="container">
-              <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}">
-                {{ .Site.Title }}
-              </a>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1 class="mt-5 mb-5">{{ .Title }}</h1>
-        </div>
+    {{ partial "header.html" }}
+    <main role="main" id="content">
+      <div class="fr-container">
+        <h1 class="fr-mt-3w fr-mt-md-5w fr-mb-5w">{{ .Title }}</h1>
+        {{ block "main" . }}{{ end }}
       </div>
-      {{ block "main" . }}
-      {{ end }}
-    </div>
-    <footer class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img  src="/images/prefet-de-la-haute-garonne.svg" alt="Préfet de la Haute-Garonne" class="logo">
-          </div>
-          <div class="col-md-9 text-md-end">
-            <p class="small">
-              Ce site est un prototype, <br>
-              réalisé avec le soutien <br>
-              du fonds de modernisation de <br>
-              l'administration territoriale de l’État.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </main>
+    {{ partial "footer.html" }}
     {{ partial "js.html" }}
   </body>
 </html>
