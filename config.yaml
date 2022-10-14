@@ -1,4 +1,4 @@
 baseURL: 'https://www.ddtbox.fr/'
 title: 'DDT Box 31'
 permalinks:
-  themes: /themes/:title/
+  themes: /themes/:filename/

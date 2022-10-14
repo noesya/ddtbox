@@ -3,28 +3,13 @@
     {{ .Content }}
     {{ range .Params.contacts }}
       <h2>{{ .title }}</h2>
-      <div class="row">
-        <div class="col-lg-7">
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-lg-7">
           {{ .text | markdownify }}
-        </div>
-        <div class="offset-lg-1 col-lg-4">
-            {{ with .address }}
-              <h3 class="h5 border-bottom pb-2">Adresse</h3>
-              <p>{{ . | safeHTML }}</p>
-            {{ end }}
-            {{ with .tel }}
-              <h3 class="h5 border-bottom pb-2">Téléphone</h3>
-              <p><a href="tel:{{ . }}">{{ . }}</a></p>
-            {{ end }}
-            {{ with .mail }}
-              <h3 class="h5 border-bottom pb-2">Mail</h3>
-              <p><a href="mailto:{{ . }}">{{ . }}</a></p>
-            {{ end }}
-            {{ with .calendly }}
-              <h3 class="h5 border-bottom pb-2">Rendez-vous en ligne</h3>
-              <div  class="calendly-inline-widget"
-              style="min-width:320px;height:600px;"
-              data-auto-load="false">
+
+          {{ with .calendly }}
+            <p class="fr-my-5w"><b>Prendre rendez-vous en ligne</b></p>
+            <div  class="calendly-inline-widget" style="min-width:320px;height:700px;" data-auto-load="false">
               <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
               <script>
                 Calendly.initInlineWidget({
@@ -32,10 +17,24 @@
                 });
               </script>
             </div>
+          {{ end }}
+        </div>
+        <div class="fr-col-offset-lg-1 fr-col-lg-4">
+            {{ with .address }}
+              <p><b>Adresse</b></p>
+              <p>{{ . | safeHTML }}</p>
+            {{ end }}
+            {{ with .tel }}
+            <p><b>Téléphone</b></p>
+              <p><a href="tel:{{ . }}">{{ . }}</a></p>
+            {{ end }}
+            {{ with .mail }}
+              <p><b>Mail</b></p>
+              <p><a href="mailto:{{ . }}">{{ . }}</a></p>
             {{ end }}
           </div>
         </div>
-        <hr class="my-5">
+        <hr class="fr-my-5w">
       {{ end }}
   </article>
 {{ end }}
